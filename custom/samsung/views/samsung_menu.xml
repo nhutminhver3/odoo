@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+        <menuitem id= "menu_samsung_root"
+                  name= "Samsung"
+                  sequence = "0"
+        />
+
+        <menuitem id= "menu_samsung_one"
+                  name= "Samsung_1"
+                  parent = "menu_samsung_root"
+                  sequence = "1"
+        />
+
+        <menuitem id= "menu_samsung_two"
+                  name= "Samsung_2"
+                  parent = "menu_samsung_root"
+                  sequence = "2"
+        />
+        <menuitem id= "menu_samsung_three"
+                  name= "Samsung_3"
+                  parent = "menu_samsung_two"
+                  sequence = "3"
+        />
+</odoo>
